@@ -1,0 +1,159 @@
+body {
+    background-image: url("./assets/images/vikings_background.png");
+    
+}
+
+#start_menu {
+
+
+	
+	height: auto;
+	padding-bottom: 50px;
+
+	margin-right: 15%;
+	margin-left: 15%;
+
+    background-color: rgb(54, 1, 54);
+    color: gold;
+
+	border-style: solid;
+	border-width: 10px;
+	border-color: white;
+
+	border-radius: 15px;
+
+
+	
+	margin-top: 50%;
+	margin-bottom: 50%;
+
+
+}
+
+#start_button{
+
+	margin-top: 8%;
+
+	height: 75px;
+
+	width: 250px;
+
+	font-size: 30px;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+
+	border-radius: 10px;
+}
+
+#skol_button{
+	margin-top: 10%;
+
+	margin-left:250px;
+
+	height: 75px;
+
+	width: 250px;
+
+	font-size: 30px;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+
+	border-radius: 10px;
+	background-color:gold;
+}
+
+
+#gameplay_container {
+
+
+	box-sizing: border-box;
+
+	text-align: center;
+	color:gold;
+
+
+	margin-top: 3%;
+	
+	height: auto;
+	padding-bottom: 50px;
+
+	margin-right: 15%;
+	margin-left: 15%;
+
+
+	background-color:rgb(54, 1, 54);
+
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+
+	border-radius: 15px;
+
+
+	margin-top: 50%;
+	margin-bottom: 50%;
+
+}
+
+#timer_line{
+	margin-bottom: 50px;
+}
+
+h1{
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+
+#done_button{
+
+	margin-top: 5%;
+
+	height: 75px;
+	width: 250px;
+
+	font-size: 30px;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+
+	border-radius: 10px;
+}
+
+
+
+#end_container {
+
+	height: auto;
+	padding-bottom: 50px;
+
+	margin-right: 15%;
+	margin-left: 15%;
+
+	
+
+	background-color: rgb(54, 1, 54);
+
+	border-style: solid;
+	border-width: 10px;
+	border-color: white;
+
+	border-radius: 15px;
+
+	color: gold;
+
+	margin-top: 50%;
+	margin-bottom: 50%;
+
+}
+
+
+#done{
+	font-size: 35px;
+}

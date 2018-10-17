@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Minnesota Vikings Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css"/>
+</head>
+<style>
+    body {
+    background-image: url("./assets/images/vikings_background.png");
+    
+}
+</style>
+<body>
+    <!--Starting Game Screen-->
+    <div id="start_menu">
+        <h1>Minnesota Vikings Trivia</h1>
+        <button id="start_button">Kickoff!</button>
+        <button id ="skol_button">Skol Vikings!</button>
+    </div>
+
+    <!--Game Play Screen-->
+    <div id="gameplay_container">
+        <h1 id="logo">Minnesota Vikings Trivia</h1>
+
+        <!--Game Timer-->
+        <h1 id="timer_display">Time Remaining:
+            <span id="timer_number">60 seconds</span>
+        </h1>
+
+        <!--Game Questions-->
+        <h1>1. The Minnesota Vikings competed in the NFL in their first season in which year?</h1>
+
+        <!--1961-->
+        <input type="radio" name="q1" value="1960">1960
+        <input type="radio" name="q1" value="1961">1961
+        <input type="radio" name="q1" value="1967">1967
+        <input type="radio" name="q1" value="1951">1951
+
+        <h1>2. The Minnesota Vikings started playing in which iconic stadium that is now the location of the Mall of America?</h1>
+
+        <!--Metropolitan Stadium-->
+        <input type="radio" name="q2" value="Hubert H. Humphrey Metrodome"> Hubert H. Humphrey Metrodome
+        <input type="radio" name="q2" value="US Bank Stadium"> US Bank Stadium
+        <input type="radio" name="q2" value="TCF Bank Stadium"> TCF Bank Stadium
+        <input type="radio" name="q2" value="Metropolitan Stadium"> Metropolitan Stadium
+
+        <h1>3. The Minnesota Vikings actually won a championship, unfortunately not a Super Bowl, during which year?</h1>
+        <!--1969-->
+        <input type="radio" name="q3" value="1971">1971
+        <input type="radio" name="q3" value="1974">1974
+        <input type="radio" name="q3" value="1969">1969
+        <input type="radio" name="q3" value="1979">1979
+
+        <h1>4. The Minnesota Vikings have won how many division championships? (yes, they have won more than the Packers!)</h1>
+
+        <!--20-->
+        <input type="radio" name="q4" value="14">14
+        <input type="radio" name="q4" value="18">18
+        <input type="radio" name="q4" value="15">15
+        <input type="radio" name="q4" value="20">20
+
+        <h1>5. What is the name of the kicker that will forever and always be known for his damn miss?!</h1>
+
+        <!--Gary Anderson, Damn!-->
+        <input type="radio" name="q5" value="Gary_Anderson">Gary Anderson, Damn!
+        <input type="radio" name="q5" value="Ryan_Longwell">Ryan Longwell, Damn!
+        <input type="radio" name="q5" value="Blair_Walsh">Blair Walsh, Damn!
+        <input type="radio" name="q5" value="Dan_Bailey">Dan Bailey, Damn!
+
+
+        <br>
+        <br>
+
+        <button id="done_button">Touchdown!</button>
+    </div>
+
+    <!-- End of the game -->
+    <div id= "end_container">
+        <!-- Static Game Logo -->
+        <h1 class="logo">Minnesota Vikings Trivia</h1>
+
+        <h1 id="done">Skol!</h1>
+        <br>
+
+
+        <h1>Correct Answers:
+            <span id="correct_answers">0</span>
+        </h1>
+        <h1>Incorrect Answers:
+            <span id=w rong_answers>0</span>
+        </h1>
+        <h1>Unanswered:
+            <span id="unanswered">0</span>
+        </h1>
+    </div>
+
+    <!--Link to JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Link to JS-->
+    <script src="./assets/javascript/app.js"></script>
+
+
+</body>
+
+
+
+
+
+</html>
