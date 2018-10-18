@@ -67,7 +67,7 @@ $(document).ready (function(){
         if (Q2 == undefined){
             unansweredCount++;
 
-        } else if (Q2 == "Metropolitan_Stadium"){
+        } else if (Q2 == "Metropolitan Stadium"){
             rightCount++;
         } 
         else{
@@ -97,13 +97,13 @@ $(document).ready (function(){
         if (Q5 == undefined){
             unansweredCount++;
 
-        } else if (Q5 == "Gary_Anderson"){
+        } else if (Q5 == "Gary Anderson"){
             rightCount++;
         } 
         else{
             wrongCount++;
         }
-    }
+
     $('#correct_answers').html(rightCount);
     $('#wrong_answers').html(wrongCount);
     $('#unanswered').html(unansweredCount);
@@ -113,4 +113,6 @@ $(document).ready (function(){
     $('#end_container').show();
 
     window.scrollTo (0, 500);
+    }
+    
 })
