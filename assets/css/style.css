@@ -1,5 +1,8 @@
 body {
-    background-image: url("./assets/images/vikings_background.png");
+	background-image: url("./assets/images/vikings_background.png");
+	background-size:cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
     
 }
 

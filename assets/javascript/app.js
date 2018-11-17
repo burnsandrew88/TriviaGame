@@ -9,6 +9,13 @@ var unansweredCount = 0;
 
 // Game Functions
 
+var SKOL = document.getElementById("#skolSong");
+
+
+$(SKOL).on("click", function playAudio(){
+    SKOL.play();
+})
+
 $(document).ready (function(){
     $('#gameplay_container').hide();
     $('#end_container').hide();
